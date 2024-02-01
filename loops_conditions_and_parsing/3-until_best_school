@@ -1,4 +1,5 @@
 !/usr/bin/env bash
+#print best school ten times using until loop
 x=0
 until (( x == 10 ))
 do
