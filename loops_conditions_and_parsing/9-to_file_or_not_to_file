@@ -2,16 +2,13 @@
 #A bash file that gives you info about a file School 
 
 file="school"
-
-# check if the file wxits 
+ 
 if [ -e "$file" ];then 
    echo "school file exists"
 
-  # checks if file is empty
   if [ ! -s "$file" ]; then
     echo "school file is empty"
 
-    # checks if file is a regular file
     if [ -f "$file" ]; then
       echo "school is a regular file"
     fi  
@@ -20,7 +17,6 @@ if [ -e "$file" ];then
 
     echo "school file is not empty"
 
-    # checks if file is a regular file
     if [ -f "$file" ]; then
       echo "school is a regular file"
     fi  
