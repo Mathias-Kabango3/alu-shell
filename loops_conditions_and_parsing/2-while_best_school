@@ -1,4 +1,5 @@
 #!/bin/bash
+# print best school ten times using while loops
 x=1
 while [[ x -le 10 ]]
 do 
